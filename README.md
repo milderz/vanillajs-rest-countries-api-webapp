@@ -1,4 +1,4 @@
-Your challenge is integrating with the <a href="https://restcountries.com/"></a>REST Countries API to pull country data and display it like in the designs.
+Your challenge is integrating with the <a href="https://restcountries.com/">REST Countries API</a> to pull country data and display it like in the designs.
 
 You can use any JavaScript framework/library on the front-end, such as React or Vue. You also have complete control over which packages you use to make HTTP requests or style your project.
 
