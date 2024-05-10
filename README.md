@@ -1,15 +1,30 @@
-Your challenge is integrating with the <a href="https://restcountries.com/">REST Countries API</a> to pull country data and display it like in the designs.
+# Country Data Project
 
-You can use any JavaScript framework/library on the front-end, such as React or Vue. You also have complete control over which packages you use to make HTTP requests or style your project.
+This project integrates with the REST Countries API to pull country data and display it according to the provided designs. Users can interact with the application to view countries, search for specific countries, filter countries by region, and access detailed information about each country.
 
-Your users should be able to:
+## Features
 
-See all countries from the API on the homepage
-Search for a country using an input field
-Filter countries by region
-Click on a country to see more detailed information on a separate page
-Click through to the border countries on the detail page
-View the optimal layout for the interface depending on their device's screen size
-See hover and focus states for all interactive elements on the page
-Bonus: Toggle the color scheme between light and dark mode
-Download the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
+- Display all countries from the REST Countries API on the homepage.
+- Search functionality to find a specific country using an input field.
+- Filter countries by region.
+- Detailed information page for each country.
+- Ability to view bordering countries from the detailed information page.
+- Responsive design for optimal layout across various screen sizes.
+- Hover and focus states for interactive elements.
+- **Bonus Feature**: Toggle between light and dark mode color schemes.
+
+## Technologies Used
+
+- JavaScript
+- [Framework/Library]: [React/Vue/Angular]
+- [HTTP Request Library]: [axios/fetch]
+- [Styling Framework/Library]: [Bootstrap/Tailwind CSS]
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone [repository_url]
