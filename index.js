@@ -12,7 +12,7 @@ const fetchCountries = async (url) => {
         countryCard.innerHTML = `<article>
     <img src="${country.flags.png}" alt"${country.flags.alt}" height="160" width="264">
     <h2>${country.name.common}</h2>
-    <a href="${slug}">${country.name.common}</a>
+    <a href="country.html?name=${slug}">${country.name.common}</a>
     <p><strong>Population: </strong>${country.population}</p>
     <p><strong>Region: </strong>${country.region}</p>
     <p><strong>Capital: </strong>${country.capital}</p>
