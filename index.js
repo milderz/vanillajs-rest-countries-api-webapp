@@ -7,7 +7,7 @@ const fetchCountries = async (url) => {
     const data = await res.json()
 
     data.map((country) => {
-        const slug = country.name.common.toLowerCase().split(' ').join('-')
+        const slug = country.name.official.toLowerCase().split(' ').join('-')
         const countryCard = document.createElement('div')
         countryCard.innerHTML = `<article>
     <img src="${country.flags.png}" alt"${country.flags.alt}" height="160" width="264">
