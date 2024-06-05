@@ -28,3 +28,5 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/milderz/vanillajs-rest-countries-api-webapp
+
+updated folder from wsl
