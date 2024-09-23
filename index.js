@@ -1,5 +1,5 @@
 const countriesSection = document.querySelector('.countries')
-
+const regionSelector = document.querySelector('#region-selector')
 
 
 const fetchCountries = async (url) => {
@@ -28,3 +28,4 @@ fetchCountries('https://restcountries.com/v3.1/all')
 
 
 
+regionSelector.addEventListener('change', () => console.log(regionSelector.value))
